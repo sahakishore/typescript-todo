@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import ReminderList from './components/ReminderList';
 import Reminder from './models/reminder';
-import NewReminder from './NewReminder';
+import NewReminder from './components/NewReminder';
 import reminderService from './services/reminder';
 // const reminders: Reminder[] = [
 //   {id: 0, title: "Drink water"},
